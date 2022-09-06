@@ -69,7 +69,7 @@
 }
 .card_area .main_chart_bottom_section_right {
   margin-bottom: 5px;
-  padding-right: 1em;
+  padding: 1em;
 }
 .card_area .main_chart_bottom_section_right .percent {
   color: hsl(25deg, 47%, 15%);
