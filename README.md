@@ -1,6 +1,6 @@
 # expenses-chart-component-main
 
-Este es el quinto reto realizado para frontend menot un expenses chart component tecnologias usadas SCSS, HTML y Chart.Js
+Este es el sexto reto realizado para frontend menot un expenses chart component tecnologias usadas SCSS, HTML y Chart.Js
 
 estas son las visualizaciones
 
