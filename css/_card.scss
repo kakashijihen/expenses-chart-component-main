@@ -1,0 +1,89 @@
+@use 'variables' as *;
+
+.card_area{
+   
+    .top{        
+        display: flex;
+        justify-content: space-between;
+        padding: 1.4rem;
+        background: $Softred;
+        border-radius: 1rem;
+        color:$Verypaleorange;
+        margin-bottom: 1rem;
+        width: 324px;
+        height: 96px;
+        margin-top: 64px;
+        @media (min-width: 768px) {
+            width: 512px;
+            height: 123px;
+            margin-top: 175px;
+        }
+    }
+    .main_chart{
+        background: $Verypaleorange;
+        border-radius: 1rem;
+        width: 318px;
+        height: 417px;    
+        margin-bottom: 65px;   
+        h1{
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+        }       
+        &_canvas{
+            display:grid;
+            &_bar{
+                margin: auto;
+                width: 300px!important;
+                height: 200px!important;
+            } 
+            @media (min-width: 768px){
+                width: 495px;
+                height: 233px;              
+            }     
+        }
+        hr{
+            margin: 1rem;
+            background: $Cream;
+            height: 2px;
+            border: 0;
+        }
+        &_bottom_section{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            &_left{
+                padding: 1em;
+                p{
+                    color: $Mediumbrown;
+                    font-size: 0.8rem;
+                    letter-spacing: 0.3px;
+                }
+                h2{
+                    font-size: 2rem;
+                    color: $Darkbrown;
+                }
+            }
+            &_right{
+                margin-bottom: 5px;
+                padding-right: 1em;
+                .percent{
+                    color: $Darkbrown;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    text-align: right;
+                }
+                .last_month{
+                    color: $Mediumbrown;
+                    letter-spacing: 0.3px;
+                    font-size: 1rem;
+                }
+            }
+        }
+        @media (min-width: 768px){
+            width: 512px;
+            height: 460px;
+        }
+    }
+
+}
